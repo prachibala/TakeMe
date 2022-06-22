@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
-import Shop from "./pages/Shop";
 import Error from "./pages/Error";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
                 <Route path="categories" element={<Categories />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="products" element={<Products />} />
-                <Route path="shop" element={<Shop />} />
                 <Route path="*" element={<Error />} />
             </Routes>
         </>
